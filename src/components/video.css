@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #333;
+}
+
+.container {
+    width: 367px;
+    height: 205px;
+    border-radius: 23px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 150px;
+    /* padding: 25px; */
+    position: relative;
+}
+
+.thumbnail img{
+    width:360px;
+    height: 205px;
+    border-radius: 13px;
+}
+
+
+.title {
+    color: white;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.channel,
+.views {
+    font-size: small;
+    color: #ccc;
+    margin-bottom: 0.2em
+}
+
+.views span {
+    padding: 0 0.5em;
+}
+.logo{
+    width: 33px;
+    height: 33px;
+    background-color: yellow;
+    border-radius: 50%;
+    position:absolute;
+    top: 215px;
+}
+.logo img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    
+
+    /* display: block;
+    margin-left: ;
+    margin-right: ;
+    max-height: ;
+    max-width: ;
+    border-radius: ; */
+}
+.title,.views,.channel{
+    margin-left: 50px;
+}
